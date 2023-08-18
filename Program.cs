@@ -183,21 +183,24 @@ namespace habit_tracker
 
                 if (checkQuery == 0)
                 {
-                    Console.WriteLine($"\n\nRecord with Id {recordId} doesn't exist.\n\n");
+                    Console.WriteLine($"\n\nRecord with Id {recordId} doesn't exist.\nPress any key to continue...\n\n");
+                    Console.ReadKey();
                     connection.Close();
                     Update();
                 }
+                else
+                {
+                    string date = GetDateInput();
 
-                string date = GetDateInput();
+                    int quantity = GetNumberInput("\n\nPlease insert number of glasses or other measure of your choice (no decimals allowed)\n\n");
 
-                int quantity = GetNumberInput("\n\nPlease insert number of glasses or other measure of your choice (no decimals allowed)\n\n");
+                    var tableCmd = connection.CreateCommand();
+                    tableCmd.CommandText = $"UPDATE drinking_water SET date = '{date}', quantity = {quantity} WHERE Id = {recordId}";
 
-                var tableCmd = connection.CreateCommand();
-                tableCmd.CommandText = $"UPDATE drinking_water SET date = '{date}', quantity = {quantity} WHERE Id = {recordId}";
+                    tableCmd.ExecuteNonQuery();
 
-                tableCmd.ExecuteNonQuery();
-
-                connection.Close();
+                    connection.Close();
+                }
             }
 
 

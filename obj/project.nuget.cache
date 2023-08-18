@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "6lnOUn5QdR90M2bi4GTGzk9W622AESc3vuaTu8kVa3EkKfoyIcsyiEOfpOBkqnVBvZCZeiRP1Q/XSJ2gw8Wq4A==",
+  "success": true,
+  "projectFilePath": "R:\\VisualStudioProjects\\academyProjectReview\\Console.HabitTracker.Master\\c-sharp-academy.01.habit-tracker-vsc\\habit-tracker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Schmit\\.nuget\\packages\\microsoft.data.sqlite\\5.0.13\\microsoft.data.sqlite.5.0.13.nupkg.sha512",
+    "C:\\Users\\Schmit\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.13\\microsoft.data.sqlite.core.5.0.13.nupkg.sha512",
+    "C:\\Users\\Schmit\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\Schmit\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\Schmit\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\Schmit\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\Schmit\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Schmit\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Schmit\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Schmit\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Schmit\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
